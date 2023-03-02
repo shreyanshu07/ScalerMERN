@@ -21,3 +21,28 @@ Things about the application :
 1. Has 3 types of rooms , namely : Non-AC room,Single AC room and Double AC room
 2. Prices of the three rooms are 50 , 80 and 100 per day respectively
 3. Available rooms are 5 , 3 and 2 respectively
+
+Here are some screenshot of the projects :
+
+1. View Data Page
+![githubScalerProject](https://user-images.githubusercontent.com/72155853/222397251-668c2943-e66a-41c7-b536-7a18250a113f.JPG)
+
+2. Add Page
+![githubScalerProjectAddPage](https://user-images.githubusercontent.com/72155853/222397784-0ff9eaee-88a3-4d56-8070-56a883073ae3.JPG)
+
+3. Delete Page
+![githubScalerProjectDeletePage](https://user-images.githubusercontent.com/72155853/222398042-bc95b42a-7927-494a-87c7-114aa7a71c8c.JPG)
+
+4. Automated Mail
+![githubScalerProjectEmailPage](https://user-images.githubusercontent.com/72155853/222398573-dc89574f-94c2-47a4-9db8-31a55d8a862d.JPG)
+
+
+To have this file in your local computer , follow these steps
+
+1. Clone the repo into your local machine
+2. Go to backend folder and install all the dependencies using npm install comand
+3. Go to frontend folder and install all the dependencies using npm install comand
+4. Go to backend folder and run it using "npm start"
+5. Go to frontend folder and run it using "npm start"
+
+# Happy Coding :)
