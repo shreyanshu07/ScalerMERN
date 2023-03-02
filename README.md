@@ -1,0 +1,23 @@
+# Scaler Hotel Managment System
+# A web app made using MongoDB , ExpressJS , ReactJS and NodeJS
+
+Following are the functionalities
+
+1. Book a room of particular type from startDate to endDate
+2. Update the reservation details of a particular meeting including Name,E-mail,Room Type, Start Date and End Date
+3. Cancel the reservation 
+4. View all the current valid reservation on the admin side 
+
+Points to note about the application :
+1. During booking it checks if rooms of particular types are available or not on particular dates
+2. During booking it validates email, Reservation Start date and Reservation End Date
+3. During booking it calculates the price in runtime and shows the total bill for current choices
+4. After succesfull booking , it fires a mail to user stating confirmation with Reservation Start Date and Reservation End Date
+5. Added a update button in view page where admin can update details for a particular user.
+6. After succesfull updation of details , it fires a mail to user stating confirmation with Updated Reservation Start Date and Updated Reservation End Date
+
+
+Things about the application : 
+1. Has 3 types of rooms , namely : Non-AC room,Single AC room and Double AC room
+2. Prices of the three rooms are 50 , 80 and 100 per day respectively
+3. Available rooms are 5 , 3 and 2 respectively
