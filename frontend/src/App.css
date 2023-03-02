@@ -1,0 +1,33 @@
+.lists-container {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .lists-container {
+    display: block;
+  }
+}
+
+h3 {
+  background: #000;
+  color: #fff;
+  padding: 0.5rem;
+}
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+dl > * {
+  flex: 0 0 50%;
+  margin: 0;
+  text-align: center;
+  outline: 1px solid lightslategray;
+}
+
+dt {
+  text-align: center;
+  font-weight: bold;
+  outline: 1px solid gray;
+}
