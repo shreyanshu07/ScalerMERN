@@ -9,7 +9,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import  axios from 'axios'
 import DeleteUser from './deleteUser'
-const URL = "http://localhost:5000/rooms";
+const URL = "http://54.199.28.86:5000/rooms";
 
 
 export default function Delete() {
@@ -20,7 +20,7 @@ export default function Delete() {
 
 
   useEffect(() => {
-    axios('http://localhost:5000/rooms')
+    axios('http://54.199.28.86:5000/rooms')
       .then(res => setUsers(res.data.rooms))
       .catch(err => console.log(err))
   }, []);

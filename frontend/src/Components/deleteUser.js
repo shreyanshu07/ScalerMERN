@@ -44,7 +44,7 @@ const DeleteUser = ({records}) => {
     }
     const deleteHandler = async (id) => {
         await axios
-          .delete(`http://localhost:5000/rooms/${id}`)
+          .delete(`http://54.199.28.86:5000/rooms/${id}`)
           .then((res) => res.data)
           .then(() => history("/"))
         console.log(id)

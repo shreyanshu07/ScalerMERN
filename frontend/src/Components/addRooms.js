@@ -9,7 +9,7 @@ import './addRooms.css'
 import emailjs from '@emailjs/browser';
 import TextField1 from '@material-ui/core/TextField';
 var dateValidator = require("validate-date");
-const URL = "http://localhost:5000/rooms";
+const URL = "http://54.199.28.86:5000/rooms";
 const fetchHandler = async () => {
   return await axios.get(URL).then((res) => res.data);
 };
@@ -194,7 +194,7 @@ const AddRooms = () => {
       });
   };
   const sendRequest=async()=>{ //Funtion to send the post request to the backend
-    await axios.post("http://localhost:5000/rooms",{
+    await axios.post("http://54.199.28.86:5000/rooms",{
       CustomerName:CustomerName,
       CustomerMailId:CustomerMailId,
       RoomType:roomType,
